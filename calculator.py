@@ -3,7 +3,7 @@ from PyQt5.QtWidgets import QApplication
 from PyQt5.QtWidgets import QWidget
 import math
 
-cls, wnd = uic.loadUiType('calkulator.ui')
+cls, wnd = uic.loadUiType('calculator.ui')
 
 class Nasza (wnd, cls):
     def __init__(self):
