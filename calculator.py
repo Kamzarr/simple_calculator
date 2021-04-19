@@ -5,7 +5,7 @@ import math
 
 cls, wnd = uic.loadUiType('calculator.ui')
 
-class Nasza (wnd, cls):
+class Calculate (wnd, cls):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
@@ -113,7 +113,7 @@ class Nasza (wnd, cls):
         
 a = QApplication([])
 
-o = Nasza()
+o = Calculate()
 o.show()
 
 a.exec()
